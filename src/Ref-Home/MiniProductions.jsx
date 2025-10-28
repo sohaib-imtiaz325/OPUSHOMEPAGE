@@ -3,28 +3,28 @@ import React from "react";
 // Example data
 const items = [
   {
-    src: "/images/card1.webp",
+    src: "/Images/card1.webp",
     alt: "Project One",
     title: "Creative Studio Project",
     description:
       "A unique digital campaign combining visual storytelling with interactivity.",
   },
   {
-    src: "/images/card2.webp",
+    src: "/Images/card2.webp",
     alt: "Project Two",
     title: "Modern Architecture",
     description:
       "Innovative structure design that redefines modern urban living.",
   },
   {
-    src: "/images/card3.webp",
+    src: "/Images/card3.webp",
     alt: "Project Three",
     title: "Smart Tech Solutions",
     description:
       "Cutting-edge technology solutions to streamline business operations.",
   },
   {
-    src: "/images/card4.webp",
+    src: "/Images/card4.webp",
     alt: "Project Four",
     title: "Eco-friendly Design",
     description:
