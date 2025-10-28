@@ -5,7 +5,7 @@ import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 const MiniFooter = () => {
   return (
     // ✅ Show only on mobile/tablet (hide on lg+)
-    <div className="flex flex-col items-center bg-white min-h-screen px-4 md:px-8 lg:hidden">
+    <div className="flex flex-col items-center bg-white min-h-screen mt-0 px-4 gap-0 md:px-8 lg:hidden">
       {/* === Blue Section === */}
       <section className="relative w-full max-w-[1324px] h-auto md:h-[439.38px] mt-[60px] bg-[#375DFB] text-white rounded-[8px] overflow-hidden flex flex-col justify-center items-center py-12 md:py-0">
         <img
@@ -28,8 +28,8 @@ const MiniFooter = () => {
       </section>
 
       {/* === Footer Navigation === */}
-      <footer className="flex flex-col items-center w-full mt-12 mb-8">
-        <div className="w-full max-w-[1324px] flex flex-col md:flex-row items-center justify-between gap-6 pt-6 border-t border-gray-200">
+      <footer className="flex flex-col items-center w-full mt-15 mb-0 pt-10 border-t border-gray-200">
+        <div className="w-full max-w-[1324px] flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center justify-center md:justify-start">
             <img
               src="/Images/Nvlogo.webp"

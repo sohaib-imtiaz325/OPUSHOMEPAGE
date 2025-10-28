@@ -1,4 +1,5 @@
 import React from "react";
+import MiniProductions from "../Ref-Home/MiniProductions";
 
 // 🔹 Example data (replace with your real data)
 const items = [
@@ -34,7 +35,10 @@ const items = [
 
 const Productions = () => {
   return (
-    // 🔸 Hidden on mobile & tablet, visible only on laptop+
+    <>
+      <MiniProductions />
+
+    {/* // 🔸 Hidden on mobile & tablet, visible only on laptop+ */}
     <section className="hidden lg:block bg-black w-full flex justify-center">
       <div className="w-full max-w-[1440px] h-[1172px] bg-black py-20 px-[60px] overflow-hidden">
         {/* ---------- HERO SECTION ---------- */}
@@ -103,6 +107,7 @@ const Productions = () => {
         `}</style>
       </div>
     </section>
+    </>
   );
 };
 
