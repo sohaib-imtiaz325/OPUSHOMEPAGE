@@ -23,6 +23,7 @@ import OurServices from "./Home/OurServices";
 import WelcomeToOpus from "./Home/Welcome-to-Opus";
 import AboutUs from "./Home/Aboutus";
 import ReadySection from "./Home/Footer";
+import AccountHistory from "./AccountHistroy";
 
 
 
@@ -54,6 +55,7 @@ const App = () => {
       <Route path="/welcometoOpus" element={<WelcomeToOpus/>} />
       <Route path="/aboutus" element={<AboutUs/>} />
       <Route path="/footer" element={<ReadySection />} />
+      <Route path="/Account" element={<AccountHistory/>} />
   
     </Routes>
   );
